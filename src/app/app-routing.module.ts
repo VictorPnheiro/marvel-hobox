@@ -5,7 +5,8 @@ import { ComicsComponent } from './comics/comics.component';
 import { SeriesComponent } from './series/series.component';
 
 const routes: Routes = [
-  {path:'',component:AllCharactersComponent},
+  { path: '', redirectTo: "/characters", pathMatch: "full" },
+  {path:'characters',component:AllCharactersComponent},
   {path:'comics',component:ComicsComponent},
   {path:'series',component:SeriesComponent}
 ];
