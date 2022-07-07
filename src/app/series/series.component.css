@@ -1,0 +1,36 @@
+@media (max-width: 1920px){
+    body{
+      background-color: #F3F0D7;
+    }
+      
+    .title {
+      color: #F3F0D7;
+    }
+  
+    .card-img-top{
+      min-height: 250px;
+      max-height: 250px;
+      min-height: 350px;
+      max-height: 350px;
+    }
+    .card{
+      min-height: 450px;
+      max-height: 450px;
+    }
+  }
+  
+  @media(max-width:991px){
+    .card-img-top{
+      min-height: 250px;
+      max-height: 250px;
+      min-height: 350px;
+      max-height: 350px;
+    }
+  
+    .card{
+      min-height: 450px;
+      max-height: 450px;
+      min-width: 400px;
+      max-width: 400px;
+    }
+  }

@@ -1,0 +1,30 @@
+@media (max-width: 1920px){
+  body{
+    background-color: #F3F0D7;
+  }
+    
+  .title {
+    color: #F3F0D7;
+  }
+
+  .card-img-top{
+    min-height: 250px;
+    max-height: 250px;
+  }
+}
+
+@media(max-width:991px){
+  .card-img-top{
+    min-height: 250px;
+    max-height: 250px;
+    min-width: 300px;
+    max-width: 300px;
+  }
+
+  .card{
+    min-height: 350px;
+    max-height: 350px;
+    min-width: 300px;
+    max-width: 300px;
+  }
+}
